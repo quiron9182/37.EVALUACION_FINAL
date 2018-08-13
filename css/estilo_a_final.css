@@ -1,0 +1,147 @@
+body{
+  width: 100%;
+  margin: 5px;
+  background-color: black;
+  text-align: center;
+}
+header{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #5b7989;
+  border: 2px solid red;
+  border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+	   -webkit-border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 600px){
+  header{
+    flex-flow: column;
+  }
+}
+h1{
+  width: auto;
+  height: auto;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  text-shadow: 2px 7px 3px #02010a;
+  font-size: 3em;
+}
+#menu-principal{
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+#menu-principal a{
+  color: white;
+  padding: 5px 5px 5px 5px;
+  font-size: 1em;
+  text-decoration: underline;
+  text-shadow: 2px 7px 3px #02010a;
+}
+#menu-principal a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.section{
+  background-color: #d5c75f;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid red;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+#f1{
+  width: 25%;
+}
+#f1 img{
+  width: 100%;
+  box-shadow: 10px 5px #02010a;
+}
+#f1 img:hover{
+  border: 5px solid red;
+  filter: grayscale(90%) contrast(70%);
+  -webkit-filter: grayscale(90%) contrast(70%);
+}
+#f2{
+  width: 25%;
+}
+#f2 img{
+  width: 100%;
+  box-shadow: 10px 5px #02010a;
+}
+#f2 img:hover{
+  border: 5px solid red;
+  filter: grayscale(90%) contrast(70%);
+  -webkit-filter: grayscale(90%) contrast(70%);
+}
+#f3{
+  width: 25%;
+}
+#f3 img{
+  width: 100%;
+  box-shadow: 10px 5px #02010a;
+}
+#f3 img:hover{
+  border: 5px solid red;
+  filter: grayscale(90%) contrast(70%);
+  -webkit-filter: grayscale(90%) contrast(70%);
+}
+@media only screen and (max-width: 600px){
+  .section{
+    flex-flow: wrap;
+  }
+  #f1{
+    width: 80%;
+  }
+  #f1 img{
+    width: 100%;
+  }
+  #f2{
+    width: 80%;
+  }
+  #f2 img{
+    width: 100%;
+  }
+  #f3{
+    width: 80%;
+  }
+  #f3 img{
+    width: 100%;
+  }
+}
+footer{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #C6d5c5;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 2px solid red;
+  border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+	   -webkit-border-radius: 0 0 10px 10px;
+}
+.box{
+  width: 20%;
+  justify-content: space-around;
+}
+.box h2{
+  text-shadow: 2px 2px 3px #02010a;
+  font-size: 1.5em;
+}
+.box a{
+  color: black;
+}
+@media only screen and (max-width: 600px){
+  .box{
+    width: 100%;
+  }
+}
